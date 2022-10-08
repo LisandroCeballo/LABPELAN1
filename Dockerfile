@@ -1,3 +1,3 @@
-FROM nginx:1.14.2-alpine
+FROM php:7.4-apache
 
-COPY index.html /usr/share/nginx/html/
+COPY index.html /var/www/html
